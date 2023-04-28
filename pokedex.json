@@ -1,10 +1,10 @@
 [
   {
-    "Name :": "Salameche",
-    "Health :": 100,
-    "Level :": 1,
-    "Attack :": 8,
-    "Defense :": 0,
-    "Type :": "Feu"
+    "Name": "Salameche",
+    "Health": 100,
+    "Level": 1,
+    "Attack": 8,
+    "Defense": 0,
+    "Type": "Feu"
   }
 ]

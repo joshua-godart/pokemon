@@ -13,9 +13,11 @@ class Pokemon:
         return self.__name
     def get_health(self):
         return self.__health
-
+    def get_attack(self):
+        return self.attack
     def get_type(self):
         return self.type
+
     def pokemon_infos(self):
         print("Nom :", self.get_name())
         print("Santé :", self.get_health())
@@ -26,12 +28,12 @@ class Pokemon:
 
     def save_pokemon(self):
         return {
-            "Name :": self.get_name(),
-            "Health :": self.get_health(),
-            "Level :": self.level,
-            "Attack :": self.attack,
-            "Defense :": self.defense,
-            "Type :": self.get_type()
+            "Name": self.get_name(),
+            "Health": self.get_health(),
+            "Level": self.level,
+            "Attack": self.attack,
+            "Defense": self.defense,
+            "Type": self.get_type()
         }
 
     def add_pokemon(self):

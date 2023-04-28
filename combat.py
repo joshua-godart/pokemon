@@ -1,6 +1,5 @@
 import json
 import random
-from pokemon import Pokemon
 class Combat:
     def __init__(self):
         pass
@@ -8,20 +7,31 @@ class Combat:
     def pokemon_choice(self):
         with open("pokedex.json", "r") as file:
             pokemon_list = json.load(file)
-        pokemon = random.choice(pokemon_list)
-        print(pokemon)
+        return random.choice(pokemon_list)
+        #print(pokemon)
+        #print(pokemon["Type"])
     def enemy_choice(self):
         with open("pokemons_list.json", "r") as file:
             pokemon_list = json.load(file)
-        enemy = random.choice(pokemon_list)
-        print(enemy)
-        print(enemy["Type :"])
+        return random.choice(pokemon_list)
+        #print(enemy)
+        #print(enemy["Type"])
 
     def get_type_enemy(self):
         pass
     def start_fight(self):
-        pass
+        pokemon1 = self.pokemon_choice()
+        attack1 = pokemon1["Attack"]
+        print(pokemon1["Name"], attack1)
 
-combat= Combat()
-combat.enemy_choice()
+        pokemon2 = self.enemy_choice()
+        attack2 = pokemon2["Attack"]
+        print(pokemon2["Name"], attack2)
+
+
+
+
+combat = Combat()
 combat.pokemon_choice()
+combat.enemy_choice()
+combat.start_fight()

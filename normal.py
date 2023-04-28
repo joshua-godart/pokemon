@@ -10,6 +10,7 @@ class Normal(Pokemon):
         self.defense = 0
         self.type = "Normal"
 
+
     def calcul_attack(self):
         #enemy = Combat.enemy_choice()
         #print(enemy["Type :"])
