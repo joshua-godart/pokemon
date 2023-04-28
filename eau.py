@@ -10,4 +10,3 @@ class Eau(Pokemon):
         self.type = "Eau"
 
 eau = Eau("Carapuce")
-eau.add_pokemon()

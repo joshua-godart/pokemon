@@ -12,10 +12,16 @@ class Normal(Pokemon):
 
 
     def calcul_attack(self):
-        #enemy = Combat.enemy_choice()
-        #print(enemy["Type :"])
-        pass
+        enemy = Combat.enemy_choice(self)
+        type = enemy["Type"]
+        print(type)
+        if type == self.get_type():
+            self.attack = self.attack
+            print(self.attack)
+        else:
+            self.attack = self.attack * 0.75
+            print(self.attack)
 
 normal = Normal("Evoli")
-normal.calcul_attack()
+print(normal.calcul_attack())
 

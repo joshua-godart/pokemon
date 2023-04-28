@@ -34,4 +34,4 @@ class Combat:
 combat = Combat()
 combat.pokemon_choice()
 combat.enemy_choice()
-combat.start_fight()
+#combat.start_fight()

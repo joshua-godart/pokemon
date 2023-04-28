@@ -1,4 +1,5 @@
 from pokemon import Pokemon
+from combat import Combat
 class Feu(Pokemon):
     def __init__(self, name):
         super().__init__(name)
@@ -8,5 +9,20 @@ class Feu(Pokemon):
         self.defense = 0
         self.type = "Feu"
 
+    def calcul_attack(self):
+        enemy = Combat.enemy_choice(self)
+        type = enemy["Type"]
+        print(type)
+
+        if type == "Eau":
+            self.attack = self.attack * 0.5
+            print(self.attack)
+        elif type == "Terre":
+            self.attack = self.attack * 2
+            print(self.attack)
+        else:
+            self.attack = self.attack * 1
+            print(self.attack)
+
 feu = Feu("Goupix")
-feu.add_pokemon()
+feu.calcul_attack()

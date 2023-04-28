@@ -10,4 +10,3 @@ class Terre(Pokemon):
         self.type = "Terre"
 
 terre = Terre("Sabelette")
-terre.add_pokemon()
