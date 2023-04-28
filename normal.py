@@ -11,8 +11,10 @@ class Normal(Pokemon):
         self.type = "Normal"
 
     def calcul_attack(self):
+        #enemy = Combat.enemy_choice()
+        #print(enemy["Type :"])
         pass
 
 normal = Normal("Evoli")
-normal.add_pokemon()
+normal.calcul_attack()
 
