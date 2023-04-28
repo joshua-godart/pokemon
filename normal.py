@@ -1,4 +1,5 @@
 from pokemon import Pokemon
+from combat import Combat
 
 class Normal(Pokemon):
     def __init__(self, name):
@@ -8,6 +9,9 @@ class Normal(Pokemon):
         self.attack = 5
         self.defense = 0
         self.type = "Normal"
+
+    def calcul_attack(self):
+        pass
 
 normal = Normal("Evoli")
 normal.add_pokemon()
