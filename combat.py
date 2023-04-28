@@ -1,6 +1,5 @@
+import json
 import random
-from pokemon import Pokemon
-from normal import Normal
 class Combat:
     def __init__(self):
         pass
@@ -11,3 +10,5 @@ class Combat:
         pass
     def start_fight(self):
         pass
+
+combat= Combat()

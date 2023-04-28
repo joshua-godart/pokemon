@@ -1,7 +1,8 @@
 import json
+import os
 
 class Pokemon:
-    def __init__(self, name=input("entrez le nom du nouveau pokémon :")):
+    def __init__(self, name):
         self.__name = name
         self.__health = 100
         self.level = 1
@@ -24,25 +25,22 @@ class Pokemon:
         print("Défense :", self.defense)
         print("Type :", self.type)
 
-    def register_pokemon(self):
-        attribut = {
+    def save_pokemon(self):
+        return {
             "Name :": self.get_name(),
             "Health :": self.get_health(),
             "Level :": self.level,
             "Attack :": self.attack,
             "Defense :": self.defense,
-            "Type :": self.type
+            "Type :": self.get_type()
         }
-        pokemon_list = {
-            "New pokemon": attribut
-        }
-        with open("pokemon_list", "r") as file:
-            read_file = file.read()
-            if self.get_name() in read_file:
-                print("Pokémon déjà enregistré")
-            else:
-                with open("pokemon_list", "a+") as file:
-                    json.dump(pokemon_list, file, indent=2)
-                    print("pokémon enregistré")
+
+    def add_pokemon(self):
+        with open('pokemons_list.json', 'r') as f:
+            pokemon_list = json.load(f)
+            new_pokemon = self.save_pokemon()
+            pokemon_list.append(new_pokemon)
+        with open('pokemons_list.json', 'w') as f:
+            json.dump(pokemon_list, f, indent=2)
 
 #pokemon = Pokemon()
