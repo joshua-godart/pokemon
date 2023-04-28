@@ -9,6 +9,6 @@ class Normal(Pokemon):
         self.defense = 0
         self.type = "Normal"
 
-normal = Normal("Ronflex")
+normal = Normal("Evoli")
 normal.add_pokemon()
 

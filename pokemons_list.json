@@ -30,5 +30,133 @@
     "Attack :": 5,
     "Defense :": 0,
     "Type :": "Normal"
+  },
+  {
+    "Name :": "Evoli",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 5,
+    "Defense :": 0,
+    "Type :": "Normal"
+  },
+  {
+    "Name :": "Salameche",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 8,
+    "Defense :": 0,
+    "Type :": "Feu"
+  },
+  {
+    "Name :": "Goupix",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 8,
+    "Defense :": 0,
+    "Type :": "Feu"
+  },
+  {
+    "Name :": "Poussifeu",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 8,
+    "Defense :": 0,
+    "Type :": "Feu"
+  },
+  {
+    "Name :": "Feunnec",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 8,
+    "Defense :": 0,
+    "Type :": "Feu"
+  },
+  {
+    "Name :": "Ponyta",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 8,
+    "Defense :": 0,
+    "Type :": "Feu"
+  },
+  {
+    "Name :": "Carapuce",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 7,
+    "Defense :": 3,
+    "Type :": "Eau"
+  },
+  {
+    "Name :": "Psykokwak",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 7,
+    "Defense :": 3,
+    "Type :": "Eau"
+  },
+  {
+    "Name :": "Ptitard",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 7,
+    "Defense :": 3,
+    "Type :": "Eau"
+  },
+  {
+    "Name :": "Hypotrempe",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 7,
+    "Defense :": 3,
+    "Type :": "Eau"
+  },
+  {
+    "Name :": "Krabby",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 7,
+    "Defense :": 3,
+    "Type :": "Eau"
+  },
+  {
+    "Name :": "Sabelette",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 5,
+    "Defense :": 5,
+    "Type :": "Terre"
+  },
+  {
+    "Name :": "Taupiqueur",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 5,
+    "Defense :": 5,
+    "Type :": "Terre"
+  },
+  {
+    "Name :": "Osselait",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 5,
+    "Defense :": 5,
+    "Type :": "Terre"
+  },
+  {
+    "Name :": "Phanpy",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 5,
+    "Defense :": 5,
+    "Type :": "Terre"
+  },
+  {
+    "Name :": "Kraknoix",
+    "Health :": 100,
+    "Level :": 1,
+    "Attack :": 5,
+    "Defense :": 5,
+    "Type :": "Terre"
   }
 ]

@@ -7,3 +7,6 @@ class Feu(Pokemon):
         self.attack = 8
         self.defense = 0
         self.type = "Feu"
+
+feu = Feu("Goupix")
+feu.add_pokemon()
