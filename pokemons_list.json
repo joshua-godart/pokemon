@@ -43,7 +43,7 @@
     "Name": "Salameche",
     "Health": 100,
     "Level": 1,
-    "Attack": 8,
+    "Attack": 7,
     "Defense": 0,
     "Type": "Feu"
   },
@@ -51,7 +51,7 @@
     "Name": "Goupix",
     "Health": 100,
     "Level": 1,
-    "Attack": 8,
+    "Attack": 7,
     "Defense": 0,
     "Type": "Feu"
   },
@@ -59,7 +59,7 @@
     "Name": "Poussifeu",
     "Health": 100,
     "Level": 1,
-    "Attack": 8,
+    "Attack": 7,
     "Defense": 0,
     "Type": "Feu"
   },
@@ -67,7 +67,7 @@
     "Name": "Feunnec",
     "Health": 100,
     "Level": 1,
-    "Attack": 8,
+    "Attack": 7,
     "Defense": 0,
     "Type": "Feu"
   },
@@ -75,7 +75,7 @@
     "Name": "Ponyta",
     "Health": 100,
     "Level": 1,
-    "Attack": 8,
+    "Attack": 7,
     "Defense": 0,
     "Type": "Feu"
   },
@@ -83,40 +83,40 @@
     "Name": "Carapuce",
     "Health": 100,
     "Level": 1,
-    "Attack": 7,
-    "Defense": 3,
+    "Attack": 6,
+    "Defense": 1,
     "Type": "Eau"
   },
   {
     "Name": "Psykokwak",
     "Health": 100,
     "Level": 1,
-    "Attack": 7,
-    "Defense": 3,
+    "Attack": 6,
+    "Defense": 1,
     "Type": "Eau"
   },
   {
     "Name": "Ptitard",
     "Health": 100,
     "Level": 1,
-    "Attack": 7,
-    "Defense": 3,
+    "Attack": 6,
+    "Defense": 1,
     "Type ": "Eau"
   },
   {
     "Name": "Hypotrempe",
     "Health": 100,
     "Level": 1,
-    "Attack": 7,
-    "Defense": 3,
+    "Attack": 6,
+    "Defense": 1,
     "Type": "Eau"
   },
   {
     "Name": "Krabby",
     "Health": 100,
     "Level": 1,
-    "Attack": 7,
-    "Defense": 3,
+    "Attack": 6,
+    "Defense": 1,
     "Type": "Eau"
   },
   {
@@ -124,7 +124,7 @@
     "Health": 100,
     "Level": 1,
     "Attack": 5,
-    "Defense": 5,
+    "Defense": 3,
     "Type": "Terre"
   },
   {
@@ -132,7 +132,7 @@
     "Health": 100,
     "Level": 1,
     "Attack": 5,
-    "Defense": 5,
+    "Defense": 3,
     "Type": "Terre"
   },
   {
@@ -140,7 +140,7 @@
     "Health": 100,
     "Level": 1,
     "Attack": 5,
-    "Defense": 5,
+    "Defense": 3,
     "Type": "Terre"
   },
   {
@@ -148,7 +148,7 @@
     "Health": 100,
     "Level": 1,
     "Attack": 5,
-    "Defense": 5,
+    "Defense": 3,
     "Type": "Terre"
   },
   {
@@ -156,7 +156,7 @@
     "Health": 100,
     "Level": 1,
     "Attack": 5,
-    "Defense": 5,
+    "Defense": 3,
     "Type": "Terre"
   }
 ]

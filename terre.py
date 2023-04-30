@@ -9,4 +9,20 @@ class Terre(Pokemon):
         self.defense = 5
         self.type = "Terre"
 
+    def calcul_attack(self):
+        enemy = Combat.enemy_choice(self)
+        type = enemy["Type"]
+        print(type)
+
+        if type == "Feu":
+            self.attack = self.attack * 0.5
+            print(self.attack)
+        elif type == "Eau":
+            self.attack = self.attack * 2
+            print(self.attack)
+        else:
+            self.attack = self.attack * 1
+            print(self.attack)
+
 terre = Terre("Sabelette")
+terre.calcul_attack()
