@@ -6,5 +6,37 @@
     "Attack": 7,
     "Defense": 0,
     "Type": "Feu"
+  },
+  {
+    "Name": "Feunnec",
+    "Health": 100,
+    "Level": 1,
+    "Attack": 7,
+    "Defense": 0,
+    "Type": "Feu"
+  },
+  {
+    "Name": "Kraknoix",
+    "Health": 100,
+    "Level": 1,
+    "Attack": 5,
+    "Defense": 3,
+    "Type": "Terre"
+  },
+  {
+    "Name": "Osselait",
+    "Health": 100,
+    "Level": 1,
+    "Attack": 5,
+    "Defense": 3,
+    "Type": "Terre"
+  },
+  {
+    "Name": "Kangourex",
+    "Health": 100,
+    "Level": 1,
+    "Attack": 5,
+    "Defense": 0,
+    "Type": "Normal"
   }
 ]

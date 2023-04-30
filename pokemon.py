@@ -45,18 +45,6 @@ class Pokemon:
         with open('pokemons_list.json', 'w') as f:
             json.dump(pokemon_list, f, indent=2)
 
-    def add_pokedex(self):
-        with open('pokedex.json', 'r') as f:
-            pokedex_list = json.load(f)
-            print(pokedex_list)
-            new_pokedex_entry = Combat.enemy_choice(self)
-            if new_pokedex_entry in pokedex_list:
-                print("Ce pokemon est déjà dans votre pokedex")
-            else:
-                pokedex_list.append(new_pokedex_entry)
-                with open('pokedex.json', 'w') as f:
-                    json.dump(pokedex_list, f, indent=2)
-
 
 
 
